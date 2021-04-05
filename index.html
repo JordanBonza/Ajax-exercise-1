@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet"
+  href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+  <title>Giphy Party!</title>
+</head>
+
+<body>
+<h1>Giphy Party Time!</h1>
+<div class="container">
+  <div></div>
+    <div>
+      <!-- Start by building a simple form with an input for a search term and a submit button -->
+      <form>
+        <input id="search-text" class="form-control" type="text"/>
+        <button id="search-btn" class="btn btn-info">Search Giphy!</button>
+        <button id="remove-btn" class="btn btn-danger">Remove Images</button>
+        <div>
+          Enter a search term.
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="gif-display">
+
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
